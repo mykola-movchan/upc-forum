@@ -51,11 +51,11 @@ main header {
     gap: 1em;
 }
 
-.lang > img {
+.lang img {
     max-width: 45px;
 }
 
-.lang > img:hover {
+.lang img:hover {
     cursor: pointer;
 }
 
@@ -160,4 +160,77 @@ footer {
     min-height: 50px;
     display: grid;
     place-items: center;
+}
+
+@media all and (max-width: 770px) {
+    main {
+        padding-inline: 0;
+    }
+
+    main header {
+        position: fixed;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 1em 2em;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    main > img {
+        padding-top: 77px;
+    }
+
+    .divider {
+        grid-template-columns: 1fr;
+        padding-inline: 1em;
+    }
+
+    .menu {
+        position: fixed;
+        height: calc(100dvh - 77px);
+        background-color: var(--primary);
+        bottom: 0;
+        right: 0;
+        padding-inline: 1em;
+    }
+
+    .menu ul {
+        gap: 2em;
+    }
+
+    .menu a {
+        color: var(--background);
+    }
+
+    .menu[data-visible="no"] {
+        display: none;
+    }
+}
+
+@media all and (max-width: 360px) {
+    main header {
+        padding: 1em;
+    }
+
+    .lang {
+        gap: 1em;
+    }
+
+    .lang > img {
+        max-width: 30px;
+    }
+
+    .lang > strong {
+        font-size: 0.8rem;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu ul {
+        align-items: center;
+    }
 }

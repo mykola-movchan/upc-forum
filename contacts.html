@@ -1,30 +1,31 @@
 <!doctype html>
-<html lang='en'>
+<html lang='uk'>
 <head>
-<title>УРМ Форум 2025</title>
+<title>УРМ Форум 2025 | Контакти</title>
 <meta charset='utf-8' />
 <meta name='viewport'
       content='width=device-width, initial-scale=1.0, maximum-scale=5.0' />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel='icon' href='images/icons/logo.jpg' />
 <link rel='stylesheet' href='css/style.css' />
 </head>
 <body>
     <main>
         <header>
-            <img src="images/icons/icon-hamburger.svg" alt="" class="hidden">
+            <img src="images/icons/icon-hamburger.svg" alt="" class="hidden" id="menu-toggle">
             <div class="lang">
-                <strong>Мова сайту:</strong>
-                <img src="images/icons/ukrainian.png" alt="">
-                <img src="images/icons/english.png" alt="">
+                <strong>Мова / Language:</strong>
+                <a href="contacts.html"><img src="images/icons/ukrainian.png" alt=""></a>
+                <a href="en/contacts.html"><img src="images/icons/english.png" alt=""></a>
             </div>
         </header>
 
         <img src="images/icons/banner.jpg" alt="">
 
         <section class="divider">
-            <nav class="menu">
+            <nav class="menu" data-visible="no">
                 <ul>
                     <li><a href="index.html">Загальна інформація</a></li>
                     <li><a href="organizers.html">Організатори та співорганізатори</a></li>
@@ -49,6 +50,6 @@
              <strong>Контакти: UPCForum2025@gmail.com</strong>
         </footer>
     </main>
-
+<script src="js/index.js"></script>
 </body>
 </html>
