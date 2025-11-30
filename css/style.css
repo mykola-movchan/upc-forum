@@ -4,6 +4,7 @@
     --primary: #4372c2;
     --secondary: #f0ad83;
     --accent: #e9f64a;
+    --purple: #663da8;
 }
 
 * {
@@ -141,6 +142,24 @@ main > img {
     max-width: 100%;
     max-height: 200px;
     border-radius: 8px;
+}
+
+a.button {
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.purple-bg {
+    background-color: var(--purple);
 }
 
 hr {
