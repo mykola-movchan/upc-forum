@@ -118,6 +118,10 @@ main > img {
     padding-block: 0.5em;
 }
 
+.content ul li > h4 {
+    padding-block: 10px;
+}
+
 .speakers {
     width: 100%;
     display: grid;
