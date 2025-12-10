@@ -189,7 +189,7 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    row-gap: 1em;
+    gap: 1em;
     place-items: center start;
 }
 
@@ -200,7 +200,6 @@ footer {
 
 .links-grid a {
     place-self: center;
-    background-color: var(--primary);
 }
 
 .links-grid #unifier1 {
@@ -271,7 +270,7 @@ footer {
     }
 }
 
-@media all and (max-width: 580px) {
+@media all and (max-width: 1020px) {
     .links-grid {
         grid-template-columns: 1fr 2fr;
     }
