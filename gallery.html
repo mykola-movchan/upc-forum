@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel='icon' href='images/icons/logo.jpg' />
 <link rel='stylesheet' href='css/style.css' />
+<link rel="stylesheet" href="css/gallery.css">
 </head>
 <body>
     <main>
@@ -43,14 +44,52 @@
             </nav>
 
             <section class="content">
-                <h2>Фото та відео матеріали зʼявляться після проведення форуму</h2>
+                <h2>Фото 11 грудня 2025</h2>
+                <div id="gallery-container">
+                    <img src="images/day1/0002.jpg" alt="">
+                    <img src="images/day1/0005.jpg" alt="">
+                    <img src="images/day1/0017.jpg" alt="">
+                    <img src="images/day1/0042.jpg" alt="">
+                    <img src="images/day1/0044.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0048.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0051.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0054.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0056.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0061.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0063.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0064.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0088.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0095.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0130.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0143.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0175.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0183.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0195.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0202.jpg" alt="" loading="lazy">
+                    <img src="images/day1/0211.jpg" alt="" loading="lazy">
+                </div>
+                <hr>
+                <a class="button purple-bg" href="https://gpr.gallera.io/496758-miznarodnii-forum-osvita-nauka-innovaciyi-liudskii-kapital-u-povojennomu-vidrodzenni-ukrayini">Розширена галерея</a>
+                <hr>
+                <h2>Відео</h2>
+                <a class="button" style="background-color: var(--secondary);" href="https://drive.google.com/drive/folders/1781UoSAQCl9KeD0lSyT83MbHAOCL6vEF?usp=drive_link">Google Drive</a>
             </section>
+
+            <div class="modal">
+                <div class="modalInner">
+                    <button aria-label="Previous Photo" class="prev">&#10094;</button>
+                    <img src="images/day1/0002.jpg">
+                    <button class="next" aria-label="Next Photo">&#10095;</button>
+                    <span id="close">&times;</span>
+                </div>
+            </div>
         </section>
 
         <footer>
              <strong>Контакти: UPCForum2025@gmail.com</strong>
         </footer>
     </main>
-<script src="js/index.js"></script>    
+<script src="js/index.js"></script>
+<script src="js/gallery.js"></script> 
 </body>
 </html>
